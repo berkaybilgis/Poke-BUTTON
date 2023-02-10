@@ -1,0 +1,87 @@
+/* add css module styles here (optional) */
+
+.test {
+  margin: 2em;
+  padding: 0.5em;
+  border: 2px solid #000;
+  font-size: 2em;
+  text-align: center;
+}
+
+.primary {
+  border-color: rgb(53, 116, 211);
+  border-radius: 7px;
+  background-color: rgb(53, 116, 211);
+  color: white;
+  block-size: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 17px;
+  cursor: pointer;
+}
+button.primary:hover {
+  background-color: rgb(118, 153, 202);
+}
+
+.dashed {
+  border-radius: 7px;
+  border-style: dashed;
+  border-width: 0.5px;
+  opacity: 0.5;
+  block-size: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+button.dashed:hover {
+  border-color: rgb(34, 95, 175);
+  color: rgb(28, 114, 163);
+  opacity: 1;
+}
+
+.text {
+  border: none;
+  block-size: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+button.text:hover {
+  background-color: rgb(248, 237, 219);
+}
+
+.link {
+  border: none;
+  block-size: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 17px;
+  color: rgb(5, 106, 248);
+  cursor: pointer;
+}
+
+button.link:hover {
+  color: rgb(74, 147, 250);
+}
+
+.default {
+  border-radius: 7px;
+  border-width: 0.5px;
+  opacity: 0.5;
+  block-size: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 17px;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+button.default:hover {
+  border-color: rgb(53, 116, 211);
+  color: rgb(53, 116, 211);
+  opacity: 1;
+}
